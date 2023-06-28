@@ -1,0 +1,31 @@
+<div class="publications">
+  <ol class="bibliography">
+    <li>
+      <div class="pub-row">
+        <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+          {% assign name = include.pub.path | split:"/" | last | split:"." | first %}
+          {% assign img_path = "assets/pub_img/" | append: name | append: ".png"%}
+          <img src="{{img_path}}" class="teaser img-fluid z-depth-1">
+          <abbr class="badge">{{include.pub.pub_abbr}}</abbr>
+        </div>
+        <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+          <div class="title">{{include.pub.title}}</div>
+          <div class="author">{{include.pub.authors}}</div>
+          <div class="periodical"><em>{{include.pub.pub_name}}<strong> ({{include.pub.pub_abbr}})</strong>, {{include.pub.year}}.</em></div>
+          <div class="links">
+            {% if include.pub.paper_url %}
+            <a href="{{include.pub.paper_url}}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
+            {% endif %}
+            {% if include.pub.code_url %}
+            <a href="{{include.pub.code_url}}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+            {% endif %}
+            {% if include.pub.bib_url %}
+            <a href="{{include.pub.bib_url}}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+            {% endif %}
+            <strong><i style="color:#e74d3c"></i></strong>
+          </div>
+        </div>
+      </div>
+    </li>   
+  </ol>
+</div>
