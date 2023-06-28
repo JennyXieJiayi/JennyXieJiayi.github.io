@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at [Lab. of Intelligent Information Processing](http://iip.whu.edu.cn/), [Wuhan University](https://www.whu.edu.cn/), supervised by [Prof. Zhenzhong Chen](http://iip.whu.edu.cn/~zzchen/). Before that, I received my bachelor’s degree from the School of Remote Sensing and Information Engineering at Wuhan University.
+I am a Ph.D. student (2019-) at the [Lab. of Intelligent Information Processing](http://iip.whu.edu.cn/), [Wuhan University](https://www.whu.edu.cn/), supervised by [Prof. Zhenzhong Chen](http://iip.whu.edu.cn/~zzchen/). Before that, I received my bachelor’s degree (2015-2019) from the School of Remote Sensing and Information Engineering at Wuhan University.
 
 ## Research Interests
 
