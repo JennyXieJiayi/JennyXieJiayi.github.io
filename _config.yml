@@ -1,1 +1,31 @@
 theme: jekyll-theme-slate
+
+# Basic Information 
+title: Jiayi XIE (谢嘉仪)
+position: Ph.D. Student
+affiliation: Wuhan University
+email: xjyxie (at) whu.edu.cn
+
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: minimal light
+description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+canonical: https://minimal-light-theme.yliu.me/
+
+# Links 
+# If you don't need one of them, you may delete the corresponding line.
+google_scholar: https://scholar.google.com/citations?user=DwNHIIwAAAAJ&hl=en
+github_link: https://github.com/JennyXieJiayi
+# cv_link: assets/files/Curriculum_Vitae_EN_JiayiXie.pdf
+# linkedin: https://www.linkedin.com/
+# twitter: https://twitter.com/
+
+# Images (e.g., your profile picture and your website's favicon) 
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+avatar: ./assets/img/avatar.jpg
+favicon: ./assets/img/favicon.svg
+favicon_dark: ./assets/img/favicon-dark.svg
+
+# Google Analytics ID
+# Please remove this if you don't use Google Analytics
+google_analytics: UA-111540567-4
