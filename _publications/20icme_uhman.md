@@ -8,6 +8,7 @@ pub_abbr: ICME
 year: 2020
 month: 7
 yymm: 2007
+others: Oral
 paper_url: https://ieeexplore.ieee.org/document/9102824
 bib_url: https://dblp.uni-trier.de/rec/conf/icmcs/LiuXZC20.html?view=bibtex
 ---

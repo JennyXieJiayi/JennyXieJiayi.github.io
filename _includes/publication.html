@@ -11,18 +11,25 @@
         <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
           <div class="title">{{include.pub.title}}</div>
           <div class="author">{{include.pub.authors}}</div>
-          <div class="periodical"><em>{{include.pub.pub_name}}<strong> ({{include.pub.pub_abbr}})</strong>, {{include.pub.year}}.</em></div>
+          <div class="periodical"><em>{{include.pub.pub_name}}<strong> ({{include.pub.pub_abbr}})</strong></em>, {{include.pub.year}}. {% if include.pub.others %}<i style="color:#e74d3c">({{include.pub.others}})</i>{% endif %}</div>
           <div class="links">
+            {% if include.pub.abstract %}
+            {% endif %}
             {% if include.pub.paper_url %}
             <a href="{{include.pub.paper_url}}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Paper</a>
             {% endif %}
             {% if include.pub.code_url %}
             <a href="{{include.pub.code_url}}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
             {% endif %}
+            {% if include.pub.slides_url %}
+            <a href="{{include.pub.slides_url}}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
+            {% endif %}
+            {% if include.pub.poster_url %}
+            <a href="{{include.pub.poster_url}}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Poster</a>
+            {% endif %}
             {% if include.pub.bib_url %}
             <a href="{{include.pub.bib_url}}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
             {% endif %}
-            <strong><i style="color:#e74d3c"></i></strong>
           </div>
         </div>
       </div>
