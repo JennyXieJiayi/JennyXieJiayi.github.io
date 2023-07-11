@@ -11,7 +11,7 @@
         <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
           <div class="title">{{include.pub.title}}</div>
           <div class="author">{{include.pub.authors}}</div>
-          <div class="periodical"><em>{{include.pub.pub_name}}<strong> ({{include.pub.pub_abbr}})</strong></em>, {{include.pub.year}}. {% if include.pub.others %}<i style="color:#e74d3c">({{include.pub.others}})</i>{% endif %}</div>
+          <div class="periodical"><em>{{include.pub.pub_name}}{% if include.pub.pub_abbr != "ArXiv" %}<strong> ({{include.pub.pub_abbr}})</strong>{% endif %}</em>, {{include.pub.year}}. {% if include.pub.others %}<i style="color:#e74d3c">({{include.pub.others}})</i>{% endif %}</div>
           <div class="links">
             {% if include.pub.abstract %}
             {% endif %}
