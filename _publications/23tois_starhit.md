@@ -8,7 +8,6 @@ pub_abbr: TOIS
 year: 2023
 month: 5
 yymm: 2305
-paper_url: https://arxiv.org/pdf/2209.01559.pdf
+paper_url: https://dl.acm.org/doi/10.1145/3597930
 code_url: https://github.com/JennyXieJiayi/STAR-HiT
-bib_url: https://dblp.uni-trier.de/rec/journals/corr/abs-2209-01559.html?view=bibtex
 ---

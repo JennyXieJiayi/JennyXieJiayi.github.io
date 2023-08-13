@@ -8,7 +8,7 @@ pub_abbr: WWW
 year: 2020
 month: 4
 yymm: 2004
-others: Short, Oral
+others: Short, Oral Presentation
 paper_url: https://dl.acm.org/doi/10.1145/3366423.3380004
 code_url: https://github.com/yaochenzhu/MMVED
 bib_url: https://dblp.uni-trier.de/rec/conf/www/XieZZPYHLC20.html?view=bibtex
