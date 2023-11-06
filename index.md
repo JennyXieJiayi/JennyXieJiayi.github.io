@@ -8,7 +8,7 @@ I am a Ph.D. student (2019-) at the [Lab. of Intelligent Information Processing]
 
 ## Research Interests
 
-My current research interests: **multimodal data mining**, **spatio-temporal data mining**, **recommender systems**, **user behavior analysis**, *etc.*
+My current research interests: **spatio-temporal data mining**, **multimodal data mining**, **recommender systems**, **user behavior modeling**, *etc.*
 
 {% include news.md %}
 
