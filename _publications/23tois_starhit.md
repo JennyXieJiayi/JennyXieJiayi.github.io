@@ -10,4 +10,5 @@ month: 5
 yymm: 2305
 paper_url: https://dl.acm.org/doi/10.1145/3597930
 code_url: https://github.com/JennyXieJiayi/STAR-HiT
+bib_url: https://dblp.uni-trier.de/rec/journals/tois/XieC24.html?view=bibtex
 ---
